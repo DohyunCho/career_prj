@@ -1,0 +1,78 @@
+npm install -g vue
+npm install -g @vue/cli
+마켓플레이스에서 설치 ==> vetur
+
+======================================
+[프로젝트 생성]
+cd C:\eGovFrameDev-3.10.0-64bit\workspace\vue.js\vue-webgame\3.숫자야구
+npm init
+    ==> number-baseboll ==> all enter
+    package.json 생성됨
+npm install vue
+npm install vue@2.7.0
+npm i webpack webpack-cli -D
+webpack.config.js 작성
+
+npm i vue-loader -D
+npm i vue-template-compiler -D
+npm i vue-style-loader -D
+npm i css-loader -D
+npm i -D webpack-dev-server
+
+package.json > "build": "webpack --watch"  ==> 자동빌드
+
+======================================
+vue create project01
+ $ cd test
+ $ npm run serve
+
+npm install vue-router --save
+npm install vue bootstrap bootstrap-vue
+
+
+{{}}
+
+ el:
+ Vue.component(
+'', "", ``,
+
+v-model
+v-html
+v-model.number
+v-bind:value="userId"
+:value="userId"
+:src="http://127.0.0.1/img/vue.jpg"
+:disabled="txt1 === ''"
+v-for="item in items"
+
+v-on:click=""
+@click=""
+v-on:change=""
+@change=""
+@keyup.enter=""
+
+v-slot:
+#
+
+this.$emit("componentClick")
+
+npm install vuex --save
+
+vuex
+...mapstate({})
+...mapGetters({})
+strict: true
+
+state:
+getters:
+mutations:
+actions:
+
+$.ajax({})
+
+this.$root.$data
+this.$parent.$data
+this.$set(  == Vue.set(
+
+.$on
+.$emit
